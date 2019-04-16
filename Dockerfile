@@ -2,7 +2,6 @@ FROM node:lts-alpine
 
 LABEL maintainer "shinyay <shinya.com@gmail.com>"
 
-RUN apk update && \
 RUN apk --no-cache add \
     build-base \
     python \
